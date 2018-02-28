@@ -1,15 +1,19 @@
 class Triangle
 
-  attr_accessor :equilateral, :isosceles, :scalene
+  attr_accessor :side_one, :side_two, :side_three
 
-  def initialize(equilateral, isosceles, scalene)
-    @equilateral = equilateral
-    @isosceles = isosceles
-    @scalene = scalene
+  def initializ, side_two, side_three)
+    @side_one = side_one
+    @side_two = side_two
+    @side_three = side_three
   end
 
-  class TriangelEerror < StandardError
-  
+  def kind
+
   end
+
+end
+
+class TriangelEerror < StandardError
 
 end
