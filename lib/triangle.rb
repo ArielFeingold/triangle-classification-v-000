@@ -12,11 +12,7 @@ class Triangle
     if @side_one == @side_two && @side_two == @side_three
       :equilateral
     end
-
-
-
   end
-
 end
 
 class TriangelEerror < StandardError
